@@ -1,0 +1,14 @@
+{
+  "name": "pdf-to-audio",
+  "version": "1.0.0",
+  "description": "want to build something that can convert my pdf to audio i can listen to at 2x",
+  "main": "index.js",
+  "repository": "https://github.com/innextinit/pdfToAudio.git",
+  "author": "Innextinit",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "typescript": "^4.6.4"
+  }
+}

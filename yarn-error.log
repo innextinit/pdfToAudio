@@ -1,0 +1,44 @@
+Arguments: 
+  /home/inioluwa/.nvm/versions/node/v16.0.0/bin/node /usr/local/bin/yarn add typescript --dev
+
+PATH: 
+  /home/inioluwa/.nvm/versions/node/v16.0.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.0.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/typescript/-/typescript-4.6.4.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141390:19)
+      at Object.onceWrapper (node:events:471:28)
+      at ClientRequest.emit (node:events:365:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:761:9)
+      at Object.onceWrapper (node:events:471:28)
+      at TLSSocket.emit (node:events:377:35)
+      at TLSSocket.Socket._onTimeout (node:net:475:8)
+      at listOnTimeout (node:internal/timers:557:17)
+      at processTimers (node:internal/timers:500:7)
+
+npm manifest: 
+  {
+    "name": "pdfToAudio",
+    "version": "1.0.0",
+    "description": "want to build something that can convert my pdf to audio i can listen to at 2x",
+    "main": "index.js",
+    "repository": "https://github.com/innextinit/pdfToAudio.git",
+    "author": "Innextinit",
+    "license": "MIT",
+    "private": null
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
