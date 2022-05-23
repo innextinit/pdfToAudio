@@ -39,11 +39,5 @@ cd pdfToAudio
 - Install used package to run the copy of this project with the command
 
 ```bash
-npm install
-```
-
-or
-
-```bash
-npm i
+yarn install
 ```
